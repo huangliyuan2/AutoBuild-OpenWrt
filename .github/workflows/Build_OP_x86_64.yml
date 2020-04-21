@@ -77,6 +77,8 @@ jobs:
       working-directory: ./openwrt
       run: |
         git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+        git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+        git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
         git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
     - name: Configuration Customization - Build_x86_64
