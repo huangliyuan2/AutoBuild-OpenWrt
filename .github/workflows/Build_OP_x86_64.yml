@@ -85,8 +85,6 @@ jobs:
         git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
         git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
         git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git package/luci-app-koolproxyR
-        git clone https://github.com/pymumu/luci-app-smartdns.git -b lede /feeds/luci/applications/luci-app-smartdns
-        git clone https://github.com/pymumu/openwrt-smartdns.git /feeds/packages/net/smartdns
 
     - name: Configuration Customization - Build_x86_64
       env:
