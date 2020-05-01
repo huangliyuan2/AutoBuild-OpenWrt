@@ -80,6 +80,7 @@ jobs:
         git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
         git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
         git clone https://github.com/ntlf9t/luci-app-dnspod.git package/luci-app-dnspod
+        git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
 
     - name: Configuration Customization - Build_x86_64
       env:
