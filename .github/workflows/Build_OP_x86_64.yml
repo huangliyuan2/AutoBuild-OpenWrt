@@ -82,6 +82,9 @@ jobs:
         git clone https://github.com/ntlf9t/luci-app-dnspod.git package/luci-app-dnspod
         git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
         git clone https://github.com/Lienol/openwrt-package package/lienol
+        git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+        git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
+
 
     - name: Configuration Customization - Build_x86_64
       env:
