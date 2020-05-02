@@ -86,6 +86,7 @@ jobs:
         git clone https://github.com/garypang13/luci-app-eqos.git package/luci-app-eqos
         git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
         git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
+        git clone https://github.com/skyformat99/eqos.git package/eqos
 
     - name: Configuration Customization - Build_x86_64
       env:
